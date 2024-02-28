@@ -9,6 +9,7 @@ export const estilos = StyleSheet.create({
       flex: 1,
       width: '100%',
       justifyContent: 'center',
+      alignItems: 'center',
       padding: 15,
     },
     inputName: {
@@ -18,7 +19,6 @@ export const estilos = StyleSheet.create({
       fontSize: 20,
       placeholder:'Digite sua senha',
       inputMode: 'text',
-      placeholderTextColor: 'red',
       margin: 5,
       backgroundColor: '#fff'
     },
@@ -33,6 +33,7 @@ export const estilos = StyleSheet.create({
     img2: {
       width: 100,
       height: 100,
+      alignItems: 'center'
     },
     
   });
