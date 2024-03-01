@@ -6,6 +6,7 @@ import {
   Image,
   ImageBackground,
 } from "react-native";
+import LoginImage from "./LoginImage";
 import { estilos } from "../styles/StylesText";
 
 const imagem2 = {
@@ -13,10 +14,6 @@ const imagem2 = {
 };
 export default function FooterComponent() {
   return (
-    <View style={{ backgroundColor: "gray", width: "100%", height: 80 }}>
-      <TouchableOpacity onPress={mensagem}>
-        <Image source={imagem2} style={estilos.img2} />
-      </TouchableOpacity>
-    </View>
+    <LoginImage/>
   );
 }

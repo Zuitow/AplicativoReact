@@ -1,4 +1,4 @@
-import LoginImagebackground from "./LoginImagebackground";
+import LoginImagebackground from "../components/LoginImagebackground"
 
  
 export default function Login() {
