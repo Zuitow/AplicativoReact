@@ -16,18 +16,12 @@ export const estilos = StyleSheet.create({
     borderColor: "black",
     padding: 15,
     fontSize: 20,
-    keyboardType: "default", // Corrigido para keyboardType
     margin: 5,
     backgroundColor: "#fff",
-    placeholderTextColor: "grey",
   },
   img: {
     width: "100%",
     height: "100%",
-  },
-  header: {
-    alignItems: "center",
-    justifyContent: "center",
   },
   img2: {
     width: 100,
@@ -39,7 +33,8 @@ export const estilos = StyleSheet.create({
     width: "100%",
     height: 110,
     justifyContent: 'center',
-    textAlign: 'center'
+    textAlign: 'center',
+    alignItems: 'center'
   },
   loginText: {
     color: "#fff",
