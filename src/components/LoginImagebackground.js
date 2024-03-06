@@ -1,4 +1,4 @@
-import { View, ImageBackground } from 'react-native';
+import { ImageBackground } from 'react-native';
 import { estilos } from '../styles/StylesText';
 
 /* Componentes Básicos */

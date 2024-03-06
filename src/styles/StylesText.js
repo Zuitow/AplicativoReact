@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+// Componente de Estilização total do código
+
 export const estilos = StyleSheet.create({
   container: {
     flex: 1,
@@ -41,5 +43,8 @@ export const estilos = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
+  },
+  fonteHeader: {
+    fontSize: 25,
   }
 });
